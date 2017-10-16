@@ -1,0 +1,24 @@
+body {
+  background-color: #FFD641; }
+
+@media (min-width: 768px) {
+  .main-page {
+    display: flex;
+    flex-wrap: wrap; } }
+.main-page {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-self: center; }
+  .main-page #details {
+    flex: 1;
+    padding: 10px;
+    border: solid 5px red; }
+  .main-page #list {
+    flex: 1;
+    padding: 10px;
+    border: solid 5px blue; }
+    .main-page #list ul li {
+      list-style: none;
+      padding-bottom: 5px; }
+
+/*# sourceMappingURL=custom.css.map */

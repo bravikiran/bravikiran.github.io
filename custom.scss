@@ -1,0 +1,53 @@
+// This custom CSS file
+
+// Flext section
+
+// flex properties
+
+// display:flex | inline-flex;
+// flex-direction: row | column;
+// flex-wrap: wrap | nowrap | wrapreverse;
+// flex-basis: <length> - width;
+// justify-content:flex-start | flext-end | center;
+// align-self: flex-start | flext-end | center;
+// align-items: flex-start | flext-end | center;
+// align-content: flex-start | flext-end | center;
+// flex-grow: <number>;
+// flex-shrink: <number>;
+// flex: <integer>;
+// order: <integer>;
+
+body {
+    background-color: #FFD641;
+}
+@media(min-width:768px){
+    .main-page {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.main-page {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-self: center;
+
+    #details {
+        flex: 1;
+        padding: 10px;
+        border: solid 5px red;
+    }
+
+    #list {
+        flex: 1;
+        padding: 10px;
+        border: solid 5px blue;
+
+        ul li{
+            list-style: none;
+            padding-bottom: 5px;
+        }
+    }
+
+    
+}
